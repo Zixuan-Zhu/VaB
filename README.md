@@ -1,9 +1,3 @@
-<style>
-h2 {
-    border-bottom: none
-}
-</style>
-
 # VaB
 
 This a Pytorch implementation of our paper "The Victim and The Beneficiary: Exploiting a Poisoned Model to Train a Clean Model on Poisoned Data", ICCV23, Oral.
