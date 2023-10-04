@@ -20,7 +20,7 @@ from attention_mix_cifar10 import attention_mix_net, train_attention_mix, train_
 parser = argparse.ArgumentParser(description='PyTorch Web-bird Training')
 parser.add_argument('--batch_size', default=128, type=int, help='train batchsize')
 parser.add_argument('--poisoned_mode', default='all2one', type=str)
-parser.add_argument('--posioned_portion', default=0.1, type=int)
+parser.add_argument('--posioned_portion', default=0.1, type=float)
 parser.add_argument('--trigger_label', default=0, type=int)
 parser.add_argument('--trigger_type', default='badnet', type=str)
 parser.add_argument('--trigger_path', default='./trigger/cifar10/cifar_1.png', type=str)
