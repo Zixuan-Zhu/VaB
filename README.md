@@ -2,13 +2,13 @@
 
 This a Pytorch implementation of our paper "The Victim and The Beneficiary: Exploiting a Poisoned Model to Train a Clean Model on Poisoned Data", ICCV23, Oral.
 
-## Setup
+### Setup
 
-### Environments
+#### Environments
 
 Please install the required packages according to requirement.txt
 
-### Datasets
+#### Datasets
 
 Download corresponding datasets and extract them to 'dataset'
 
